@@ -1,0 +1,30 @@
+{
+    "name": "stormpath/mfa",
+    "description": "MFA Example for showing how MFA inside of a PHP application can work.",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Brian Retterer",
+            "email": "brian@stormpath.com"
+        }
+    ],
+    "require": {
+        "stormpath/sdk": "dev-feature/mfa",
+        "symfony/http-foundation": "^3.1",
+        "vlucas/phpdotenv": "^2.4",
+        "symfony/var-dumper": "^3.1",
+        "bretterer/iso_duration_converter": "^0.1.0"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/bretterer/Sites/com.stormpath.php.sdk"
+        }
+    ]
+}
